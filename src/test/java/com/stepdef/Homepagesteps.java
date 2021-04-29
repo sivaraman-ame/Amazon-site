@@ -13,7 +13,7 @@ public class Homepagesteps extends BaseClass {
 	@Given("^user launch the browser and implements implicit wait$")
 	public void user_launch_the_browser_and_implements_implicit_wait() {
 		launchPage("https://www.amazon.in/");
-
+      launchPage("https://www.amazon.in/");
 	}
 
 	@When("^user clicks mobiles and user moves the mouse to mobiles and accessories$")
